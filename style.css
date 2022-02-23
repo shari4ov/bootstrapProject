@@ -1,0 +1,30 @@
+
+main{
+       margin:1em;
+}
+.input-group{
+       display: flex;
+}
+.text-secondary{
+       display: inline-block;
+}
+.about-tbl{
+       display: inline-block;
+       margin-top: 1em;
+       padding:1em;
+}
+.cardContainer{
+       padding-top:2em;
+       
+}
+.tableDiv{
+       margin-top:2em;
+}
+footer{
+       margin-left: 1em;
+}
+
+#vertical-nav{
+      
+       display: none;
+}

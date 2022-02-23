@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+       <link rel="stylesheet" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+       <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+       <script src="//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+               
+       <nav class="navbar navbar-dark bg-dark">
+              <div class="container-fluid">
+                     <div class="row">
+                            <div class="col align-self-center">
+                                   <a class="navbar-brand" href="#">Start</a>
+                            </div>
+                            <div class="col align-self-center">
+                                   <button class="navbar-toggler" id="sidebarToggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                                   </button>
+                            </div>
+                            
+                     </div>
+                     <form action="" class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                            <div class="input-group">
+                                   <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch">
+                                   <button class="btn btn-outline-light" type="submit">Search</button>
+                            </div>
+                     </form>
+                     
+              </div>
+       </nav>
+       
+       
+       <div id="vertical-nav" id="sidebar">
+              <div id="layoutSidenav_nav">
+                     <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                            <div class="sb-sidenav-menu">
+                                   <div class="nav">
+                                          <div class="d-flex flex-column flex-shrink-0 p-3 bg-dark" id="layoutSidenav">
+                                                 <ul class="nav nav-pills flex-column mb-auto">
+                                                        <li>
+                                                               <a href="" class="nav-link link-light">Dashboards</a>
+                                                        </li>
+                                                        <li>
+                                                               <a href="" class="nav-link link-light">Layouts</a>
+                                                        </li>
+                                                        <li>
+                                                               <a href="" class="nav-link link-light">Pages</a>
+                                                        </li>
+                                                        <li>
+                                                               <a href="" class="nav-link link-light">Charts</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                               <a href="" class="nav-link active" aria-current="page">Tables</a>
+                                                        </li>
+                                                 </ul>
+                                          </div>
+                                   </div>
+                            </div>
+                     </nav>
+              </div>
+
+       </div> 
+</header>
+       <main>
+              <h1>Tables</h1>
+
+              <a href="#" class="text-primary">Dashboard</a> <p  class="text-secondary">/Tables</p>
+              <div>
+                     <span class="border about-tbl">DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the <a href="#">official DataTables documentation</a> .
+                     </span>
+              </div>
+              <div class="tableDiv card mb-4">
+                     <div class="card-header">
+                            DataTable Example
+                     </div>
+                     <div class="card-body">
+                            <table class="table table-responsive table-hover table-bordered cardContainer" id="myTable">
+                                   <thead class="table-dark">
+                                          <tr>
+                                                 <th scope="col">Name</th>
+                                                 <th scope="col">Position</th>
+                                                 <th scope="col">Office</th>
+                                                 <th scope="col">Age</th>
+                                                 <th scope="col">Start date</th>
+                                                 <th scope="col">Salary</th>
+                                          </tr>
+                                   </thead>
+                                   <tbody>
+                                          <tr>
+                                                 <td>He Nixon</td>
+                                                 <td> Architect	</td>
+                                                 <td>Baku</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                          <tr>
+                                                 <td>Tiger Nixon</td>
+                                                 <td>System Architect	</td>
+                                                 <td>Edinburgh</td>
+                                                 <td>61</td>
+                                                 <td>2011/04/25	</td>
+                                                 <td>$320,800</td>
+                                          </tr>
+                                   </tbody>
+                            </table>
+                     </div>
+                     <div class="pagination-container">
+                            <nav>
+                                   <ul class="pagination"></ulc>
+                            </nav>
+
+                     </div>
+              </div>
+              
+       </main>
+       <footer>
+              <p class="text-secondary">Copyright &copy; Your website 2021</p>
+       </footer>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="/script.js"></script>
+</body>
+</html>
